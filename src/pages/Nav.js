@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Nav() {
     const menus = [
@@ -7,7 +7,7 @@ function Nav() {
         { link: "experience", name: "Experience" },
         { link: "education", name: "Education" },
         { link: "skills", name: "Skills" },
-        { link: "nterests", name: "Interests" },
+        { link: "interests", name: "Interests" },
         { link: "awards", name: "Awards" },
     ];
     return (
@@ -47,58 +47,24 @@ function Nav() {
                             const { name, link } = menu;
                             return (
                                 // <></>
-                                <li className="nav-item" key={id}>
-                                    <Link
+                                <li
+                                    // className="nav-item"
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "nav-item active"
+                                            : "nav-item"
+                                    }
+                                    key={id}
+                                >
+                                    <NavLink
                                         className="nav-link js-scroll-trigger"
                                         to={link}
                                     >
                                         {name}
-                                    </Link>
+                                    </NavLink>
                                 </li>
                             );
                         })}
-
-                        {/*                         
-                        <li className="nav-item">
-                            <Link
-                                className="nav-link js-scroll-trigger"
-                                to="/experience"
-                            >
-                                Experience
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
-                                className="nav-link js-scroll-trigger"
-                                to="/education"
-                            >
-                                Education
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
-                                className="nav-link js-scroll-trigger"
-                                to="/skills"
-                            >
-                                Skills
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
-                                className="nav-link js-scroll-trigger"
-                                to="/interests"
-                            >
-                                Interests
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link
-                                className="nav-link js-scroll-trigger"
-                                to="/awards"
-                            >
-                                Awards
-                            </Link>
-                        </li> */}
                     </ul>
                 </div>
             </nav>
