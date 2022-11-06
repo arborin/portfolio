@@ -25,15 +25,15 @@ const data = {
     },
     experience: [
         {
-            organization: "PHP Developer",
-            position: "Digital Governance Agency",
+            organization: "Digital Governance Agency",
+            position: "PHP Developer",
             date_from: "2022",
             date_to: "present",
             job_desc: "Create and support web applications based on php.",
         },
         {
-            organization: "PHP Developer",
-            position: "Citadeli",
+            organization: "Citadeli",
+            position: "PHP Developer",
             date_from: "2021",
             date_to: "present",
             job_desc: "Create and support company CRM system based on php.",
@@ -53,13 +53,6 @@ const data = {
             date_to: "2020",
             job_desc:
                 "Create and support medical applications according business needs, implement a data integration processes.",
-        },
-        {
-            organization: "",
-            position: "",
-            date_from: "",
-            date_to: "",
-            job_desc: "",
         },
         {
             organization: "JSC Silknet",
@@ -94,7 +87,7 @@ const data = {
         },
         {
             organization: "Georgian Railway",
-            position: "Ji Support",
+            position: "Junior Network Administrator",
             date_from: "2010",
             date_to: "2011",
             job_desc: "Configuration, monitoring and support internal network",

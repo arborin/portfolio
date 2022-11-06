@@ -43,19 +43,10 @@ function Nav() {
                 >
                     <ul className="navbar-nav">
                         {menus.map((menu, id) => {
-                            console.log(menu);
+                            // console.log(menu);
                             const { name, link } = menu;
                             return (
-                                // <></>
-                                <li
-                                    key={id}
-                                    className="nav-item"
-                                    // className={({ isActive }) =>
-                                    //     isActive
-                                    //         ? "nav-item active"
-                                    //         : "nav-item"
-                                    // }
-                                >
+                                <li key={id} className="nav-item">
                                     <NavLink className="nav-link" to={link}>
                                         {name}
                                     </NavLink>
