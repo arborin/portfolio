@@ -7,6 +7,7 @@ function Nav() {
         { link: "experience", name: "Experience" },
         { link: "education", name: "Education" },
         { link: "skills", name: "Skills" },
+        { link: "projects", name: "Projects" },
         { link: "interests", name: "Interests" },
         { link: "awards", name: "Awards" },
     ];

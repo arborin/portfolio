@@ -33,7 +33,7 @@ function Skills() {
                     <ul className="fa-ul mb-0">
                         {other.map((item, id) => {
                             return (
-                                <li key={id}>
+                                <li className="orange-text" key={id}>
                                     <i className="fa-li fa fa-check"></i>
                                     {item}
                                 </li>

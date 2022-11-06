@@ -157,5 +157,10 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #385fbd;
+  color: #fc6719;
+}
+
+.orange-text:hover {
+  color: #fc6719;
+  cursor: default;
 }

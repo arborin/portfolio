@@ -21,7 +21,7 @@ const data = {
                 link: "https://www.linkedin.com/in/nika-kobaidze-3a7771227/",
             },
         ],
-        text: " I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.",
+        text: "I have over 4 years of experience in various areas in Software and Web Development. Excellent in Web Application using  PHP, Laravel, Python, Flask, React, AJAX,  MySQL, MVC,  GIT, OOP Concepts and Design Pattern Experience.",
     },
     experience: [
         {
@@ -155,13 +155,13 @@ const data = {
             { name: "Docker", logo: "docker" },
         ],
         other: [
-            "Cisco Networking",
             "Microcontroller progamming",
             "Raspberry PI",
             "AVR",
             "Arduino",
             "Psoc",
             "STM32",
+            "Networking",
         ],
     },
     interests: [
@@ -202,6 +202,36 @@ const data = {
             year: 2018,
         },
     ],
+    projects: {
+        react: [
+            {
+                title: "todo list",
+                desc: "Todo list using react hooks",
+                url: "http://google.com",
+                image: "/assets/img/img.jpg",
+            },
+            {
+                title: "Context Menu",
+                desc: "Simple context menu using react",
+                url: "http://google.com",
+                image: "/assets/img/img.jpg",
+            },
+        ],
+        laravel: [
+            {
+                title: "TRCP",
+                desc: "Truck parking management system",
+                url: "http://google.com",
+                image: "/assets/img/img.jpg",
+            },
+            {
+                title: "CRM",
+                desc: "Simple CRM",
+                url: "http://google.com",
+                image: "/assets/img/img.jpg",
+            },
+        ],
+    },
 };
 
 export default data;

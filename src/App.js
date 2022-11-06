@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Education from "./pages/Education";
 import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
 import Interests from "./pages/Interests";
 import Awards from "./pages/Awards";
 
@@ -19,6 +20,7 @@ function App() {
                     <Route path="/experience" element={<Experience />} />
                     <Route path="/education" element={<Education />} />
                     <Route path="/skills" element={<Skills />} />
+                    <Route path="/projects" element={<Projects />} />
                     <Route path="/interests" element={<Interests />} />
                     <Route path="/awards" element={<Awards />} />
                     <Route path="*" element={<About />} />
