@@ -25,18 +25,18 @@ const data = {
     },
     experience: [
         {
-            organization: "Digital Governance Agency",
-            position: "PHP Developer",
-            date_from: "2022",
-            date_to: "present",
-            job_desc: "Create and support web applications based on php.",
-        },
-        {
             organization: "Citadeli",
             position: "PHP Developer",
             date_from: "2021",
             date_to: "present",
             job_desc: "Create and support company CRM system based on php.",
+        },
+        {
+            organization: "Digital Governance Agency",
+            position: "PHP Developer",
+            date_from: "2022",
+            date_to: "present",
+            job_desc: "Create and support web applications based on php.",
         },
         {
             organization: "Odeo Soft",
@@ -164,31 +164,42 @@ const data = {
             "STM32",
         ],
     },
-    interests: "bla bla bla",
+    interests: [
+        "Electronic Enginearing",
+        "Internet of Things",
+        "Astronomy",
+        "Painting",
+    ],
     awards: [
         {
             organization: "Georgian innovation and technology agency",
             training: "Python programming training",
+            year: 2018,
         },
         {
             organization: "University of Georgia",
             training: "Microelectronic and microcontroller programming",
+            year: 2018,
         },
         {
             organization: "Georgian data exchange agency",
             training: " Cyber security",
+            year: 2018,
         },
         {
             organization: "Information technologies academy",
             training: "Cisco Certified Network Associate – CCNA",
+            year: 2018,
         },
         {
             organization: "Cisco",
             training: "Cisco Certified Network Associate Security ",
+            year: 2018,
         },
         {
             organization: "Web studio Lemons",
             training: "Web programing course (HTML, CSS, PHP, MySQL)",
+            year: 2018,
         },
     ],
 };
