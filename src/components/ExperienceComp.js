@@ -1,6 +1,6 @@
 import React from "react";
 
-function ExperienceData(props) {
+function ExperienceComp(props) {
     const job = props.job;
 
     const { position, organization, job_desc, date_from, date_to } = job;
@@ -20,4 +20,4 @@ function ExperienceData(props) {
     );
 }
 
-export default ExperienceData;
+export default ExperienceComp;

@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceData from "../components/ExperienceData";
+import ExperienceComp from "../components/ExperienceComp";
 import data from "../data";
 
 function Experiance() {
@@ -15,7 +15,7 @@ function Experiance() {
                 <h2 className="mb-5">Experience</h2>
 
                 {experience.map((item, index) => {
-                    return <ExperienceData job={item} key={index} />;
+                    return <ExperienceComp job={item} key={index} />;
                 })}
             </div>
         </section>

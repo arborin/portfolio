@@ -1,6 +1,9 @@
 import React from "react";
+import data from "../data";
 
 function Skills() {
+    const { programming, other } = data.skills;
+
     return (
         <div>
             <section
@@ -14,62 +17,28 @@ function Skills() {
                         Programming Languages &amp; Tools
                     </div>
                     <ul className="list-inline list-icons">
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-html5"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-css3"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-javascript"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-python"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-docker"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-laravel"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-bootstrap"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-mysql"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-postgresql"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-git"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-react"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="devicons devicons-linux"></i>
-                        </li>
+                        {programming.map((item, id) => {
+                            const { name, logo } = item;
+                            return (
+                                <li className="list-inline-item" key={id}>
+                                    <i
+                                        className={`devicons devicons-${logo}`}
+                                    ></i>
+                                </li>
+                            );
+                        })}
                     </ul>
 
-                    <div className="subheading mb-3">Workflow</div>
+                    <div className="subheading mb-3">Other Skills</div>
                     <ul className="fa-ul mb-0">
-                        <li>
-                            <i className="fa-li fa fa-check"></i>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <i className="fa-li fa fa-check"></i>
-                            Cross Browser Testing &amp; Debugging
-                        </li>
-                        <li>
-                            <i className="fa-li fa fa-check"></i>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <i className="fa-li fa fa-check"></i>
-                            Agile Development &amp; Scrum
-                        </li>
+                        {other.map((item, id) => {
+                            return (
+                                <li key={id}>
+                                    <i className="fa-li fa fa-check"></i>
+                                    {item}
+                                </li>
+                            );
+                        })}
                     </ul>
                 </div>
             </section>
