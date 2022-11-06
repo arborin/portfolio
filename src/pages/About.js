@@ -15,7 +15,7 @@ function About() {
         >
             <div className="my-auto">
                 <h1 className="mb-0">
-                    {last_name}
+                    <span>{last_name} </span>
                     <span className="text-primary">{first_name}</span>
                 </h1>
                 <div className="subheading mb-5">
@@ -29,7 +29,11 @@ function About() {
 
                         return (
                             <li className="list-inline-item" key={id}>
-                                <a href={link} target="_blank">
+                                <a
+                                    href={link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     <span className="fa-stack fa-lg">
                                         <i className="fa fa-circle fa-stack-2x"></i>
                                         <i

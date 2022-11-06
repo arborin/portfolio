@@ -15,7 +15,7 @@ function Awards() {
                     {awards.map((award, index) => {
                         const { organization, training } = award;
                         return (
-                            <li>
+                            <li className="mb-3">
                                 <i className="fa-li fa fa-trophy text-warning"></i>
                                 <strong>{training}</strong> - {organization}
                             </li>

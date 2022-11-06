@@ -60,7 +60,7 @@ const data = {
             date_from: "2017",
             date_to: "2018",
             job_desc:
-                "Instalation/Configuration and support VOIP based systems and services.",
+                "Instalation/Configuration/Automation and support VOIP based systems and services.",
         },
         {
             organization: "State military scientific-technical center DELTA",
@@ -72,7 +72,7 @@ const data = {
         },
         {
             organization: "LTD 'MyGPS'",
-            position: "Programmer",
+            position: "Embedded system programmer",
             date_from: "2014",
             date_to: "2014",
             job_desc:
@@ -118,7 +118,7 @@ const data = {
         },
         {
             univeristy: "I. Javakhishvili Tbilisi state University",
-            Faculty: "Faculty of exact and natural sciences",
+            faculty: "Faculty of exact and natural sciences",
             degree: "Bachelor’s degree",
             start_date: "2006",
             end_date: "2010",
@@ -207,14 +207,20 @@ const data = {
             {
                 title: "todo list",
                 desc: "Todo list using react hooks",
-                url: "http://google.com",
-                image: "/assets/img/img.jpg",
+                url: "https://github.com/arborin/ol-academy-react-todo",
+                image: "/assets/img/todolist.jpg",
             },
             {
                 title: "Context Menu",
                 desc: "Simple context menu using react",
-                url: "http://google.com",
-                image: "/assets/img/img.jpg",
+                url: "https://github.com/arborin/ol-academy-context-menu",
+                image: "",
+            },
+            {
+                title: "React Popup",
+                desc: "Popup wondow react project",
+                url: "https://github.com/arborin/ol-academy-popup-with-handling-outside-click",
+                image: "/assets/img/popup.jpg",
             },
         ],
         laravel: [
@@ -222,13 +228,27 @@ const data = {
                 title: "TRCP",
                 desc: "Truck parking management system",
                 url: "http://google.com",
-                image: "/assets/img/img.jpg",
+                image: "",
             },
             {
                 title: "CRM",
                 desc: "Simple CRM",
                 url: "http://google.com",
-                image: "/assets/img/img.jpg",
+                image: "",
+            },
+        ],
+        python: [
+            {
+                title: "SEEKER M",
+                desc: "Multi-purpose mountable laser rangefinder",
+                url: "https://github.com/arborin/nc_network",
+                image: "/assets/img/seeker_m.jpg",
+            },
+            {
+                title: "PZEM 016",
+                desc: "Energy monitoring system",
+                url: "https://github.com/arborin/pzem_016",
+                image: "/assets/img/pzm_016.jpg",
             },
         ],
     },

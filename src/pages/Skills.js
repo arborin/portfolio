@@ -18,7 +18,7 @@ function Skills() {
                     </div>
                     <ul className="list-inline list-icons">
                         {programming.map((item, id) => {
-                            const { name, logo } = item;
+                            const { logo } = item;
                             return (
                                 <li className="list-inline-item" key={id}>
                                     <i
@@ -33,7 +33,7 @@ function Skills() {
                     <ul className="fa-ul mb-0">
                         {other.map((item, id) => {
                             return (
-                                <li className="orange-text" key={id}>
+                                <li className="orange-text mb-3" key={id}>
                                     <i className="fa-li fa fa-check"></i>
                                     {item}
                                 </li>

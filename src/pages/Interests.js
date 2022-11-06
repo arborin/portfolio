@@ -12,14 +12,10 @@ function Interests() {
             <div className="my-auto">
                 <h2 className="mb-5">Interests</h2>
 
-                {/* {interests.map((item, index) => {
-                    return <p>{item}</p>;
-                })} */}
-
                 <ul className="fa-ul mb-0">
                     {interests.map((item, id) => {
                         return (
-                            <li key={id}>
+                            <li key={id} className="orange-text mb-3">
                                 <i className="fa-li fa fa-check"></i>
                                 {item}
                             </li>
