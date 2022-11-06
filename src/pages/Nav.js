@@ -48,18 +48,15 @@ function Nav() {
                             return (
                                 // <></>
                                 <li
-                                    // className="nav-item"
-                                    className={({ isActive }) =>
-                                        isActive
-                                            ? "nav-item active"
-                                            : "nav-item"
-                                    }
                                     key={id}
+                                    className="nav-item"
+                                    // className={({ isActive }) =>
+                                    //     isActive
+                                    //         ? "nav-item active"
+                                    //         : "nav-item"
+                                    // }
                                 >
-                                    <NavLink
-                                        className="nav-link js-scroll-trigger"
-                                        to={link}
-                                    >
+                                    <NavLink className="nav-link" to={link}>
                                         {name}
                                     </NavLink>
                                 </li>
