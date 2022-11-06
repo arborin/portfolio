@@ -19,7 +19,7 @@ function About() {
                     <span className="text-primary">{first_name}</span>
                 </h1>
                 <div className="subheading mb-5">
-                    {mobile} · {city} · {address} ·
+                    {city} · {address} · {mobile} ·{" "}
                     <a href="mailto:name@email.com">{email}</a>
                 </div>
                 <p className="mb-5">{text}</p>

@@ -24,28 +24,31 @@ function Skills() {
                             <i className="devicons devicons-javascript"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i className="devicons devicons-jquery"></i>
+                            <i className="devicons devicons-python"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i className="devicons devicons-sass"></i>
+                            <i className="devicons devicons-docker"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i className="devicons devicons-less"></i>
+                            <i className="devicons devicons-laravel"></i>
                         </li>
                         <li className="list-inline-item">
                             <i className="devicons devicons-bootstrap"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i className="devicons devicons-wordpress"></i>
+                            <i className="devicons devicons-mysql"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i className="devicons devicons-grunt"></i>
+                            <i className="devicons devicons-postgresql"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i className="devicons devicons-gulp"></i>
+                            <i className="devicons devicons-git"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i className="devicons devicons-npm"></i>
+                            <i className="devicons devicons-react"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-linux"></i>
                         </li>
                     </ul>
 

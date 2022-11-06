@@ -2,16 +2,26 @@ const data = {
     about: {
         first_name: "nika",
         last_name: "kobaidze",
-        mobile: "+995 555121239",
+        mobile: "+995 555 12 12 39",
         email: "nika.kobaidze@gmail.com",
         city: "tbilisi",
         address: "Gldani III Disctrict, Block 79B Flat(68) ",
-        links: {
-            facebook: "",
-            instagram: "",
-            github: "",
-            youtube: "",
-        },
+        pages: [
+            {
+                name: "facebook",
+                link: "https://www.facebook.com/kobaidzenika/",
+            },
+            {
+                name: "youtube",
+                link: "https://www.youtube.com/channel/UClaY-QGIGC_50RFv1csr5mw",
+            },
+            { name: "github", link: "https://github.com/arborin" },
+            {
+                name: "linkedin",
+                link: "https://www.linkedin.com/in/nika-kobaidze-3a7771227/",
+            },
+        ],
+        text: " I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.",
     },
     experience: [
         {
