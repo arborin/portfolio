@@ -11,6 +11,9 @@ function Nav() {
         { link: "interests", name: "Interests" },
         { link: "awards", name: "Awards" },
     ];
+
+    // const url = window.location.href;
+
     return (
         <div>
             <nav
@@ -48,7 +51,10 @@ function Nav() {
                             const { name, link } = menu;
                             return (
                                 <li key={id} className="nav-item">
-                                    <NavLink className="nav-link" to={link}>
+                                    <NavLink
+                                        className="nav-link"
+                                        to={`${link}`}
+                                    >
                                         {name}
                                     </NavLink>
                                 </li>
