@@ -13,8 +13,6 @@ function Projects() {
         >
             <div className="my-auto">
                 {project_titles.map((title, index) => {
-                    console.log(title);
-                    console.log(projects[title]);
                     return (
                         <ProjectsComp
                             title={title}

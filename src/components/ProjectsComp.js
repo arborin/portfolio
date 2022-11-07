@@ -9,7 +9,7 @@ function ProjectsComp(props) {
                 const { title, desc, url, image } = project;
                 let img_url = image
                     ? `url(${image})`
-                    : "url('/assets/img/no_img.jpg')";
+                    : "url('assets/img/no_img.jpg')";
                 return (
                     <div className="card" key={index}>
                         <div
