@@ -1,6 +1,6 @@
 # Portfolio page
 
-<a href="https://radiant-chebakia-685c82.netlify.app/" target="_blank">Open</a>
+<a href="https://radiant-chebakia-685c82.netlify.app/](https://calm-seahorse-1452a2.netlify.app/" target="_blank">View Online</a>
 
 # Getting Started with Create React App
 
