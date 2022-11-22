@@ -9,7 +9,7 @@ function About() {
     console.log(pages);
 
     const sendRequest = () => {
-        const url = "http://45.9.46.62:8887/api/smsCheck.php";
+        const url = "http://45.9.46.62:8887/api/index.php";
 
         const myHeaders = new Headers();
 
