@@ -37,9 +37,6 @@ function About() {
             id="about"
         >
             <div className="my-auto">
-                <button className="btn" onClick={sendRequest}>
-                    Send request
-                </button>
                 <h1 className="mb-0">
                     <span>{last_name} </span>
 
@@ -48,6 +45,11 @@ function About() {
                 <div className="subheading mb-5">
                     {city} · {address} · {mobile} ·{" "}
                     <a href="mailto:name@email.com">{email}</a>
+                </div>
+                <div>
+                    <button className="btn" onClick={sendRequest}>
+                        Send request
+                    </button>
                 </div>
                 <p className="mb-5">{text}</p>
                 <ul className="list-inline list-social-icons mb-0">
